@@ -1,47 +1,43 @@
-# (Music)
-
-# > Deezer
+# > MUSIC - Deezer
 USER-AGENT,Deezer*,FgnStream
 DOMAIN-SUFFIX,deezer.com,FgnStream
 DOMAIN-SUFFIX,dzcdn.net,FgnStream
 
-# > KKBOX
+# > MUSIC - KKBOX
 DOMAIN-SUFFIX,kkbox.com,FgnStream
 DOMAIN-SUFFIX,kkbox.com.tw,FgnStream
 DOMAIN-SUFFIX,kfs.io,FgnStream
 
-# > JOOX
+# > MUSIC - JOOX
 USER-AGENT,WeMusic*,FgnStream
 USER-AGENT,JOOX*,FgnStream
 DOMAIN-SUFFIX,joox.com,FgnStream
 
-# > Pandora
+# > MUSIC - Pandora
 USER-AGENT,Pandora*,FgnStream
 DOMAIN-SUFFIX,pandora.com,FgnStream
 
-# > Spotify
+# > MUSIC - Spotify
 USER-AGENT,Spotify*,FgnStream
 DOMAIN-SUFFIX,pscdn.co,FgnStream
 DOMAIN-SUFFIX,scdn.co,FgnStream
 DOMAIN-SUFFIX,spotify.com,FgnStream
 DOMAIN-SUFFIX,spoti.fi,FgnStream
 
-# > TIDAL
+# > MUSIC - TIDAL
 USER-AGENT,TIDAL*,FgnStream
 DOMAIN-SUFFIX,tidal.com,FgnStream
 
-# > YoutubeMusic
+# > MUSIC - YoutubeMusic
 USER-AGENT,com.google.ios.youtubemusic*,FgnStream
 USER-AGENT,YouTubeMusic*,FgnStream
 
-# (Video)
-
-# > All4
+# > VIDEO - All4
 USER-AGENT,All4*,FgnStream
 DOMAIN-SUFFIX,c4assets.com,FgnStream
 DOMAIN-SUFFIX,channel4.com,FgnStream
 
-# > AbemaTV
+# > VIDEO - AbemaTV
 USER-AGENT,AbemaTV*,FgnStream
 DOMAIN-SUFFIX,abema.io,FgnStream
 DOMAIN-SUFFIX,abema.tv,FgnStream
@@ -52,36 +48,36 @@ DOMAIN,ds-linear-abematv.akamaized.net,FgnStream
 DOMAIN,ds-vod-abematv.akamaized.net,FgnStream
 DOMAIN,linear-abematv.akamaized.net,FgnStream
 
-# > Amazon Prime Video
+# > VIDEO - Amazon Prime Video
 USER-AGENT,InstantVideo.US*,FgnStream
 USER-AGENT,Prime%20Video*,FgnStream
 DOMAIN-SUFFIX,primevideo.com,FgnStream
 
-# > Bahamut
+# > VIDEO - Bahamut
 USER-AGENT,Anime*,FgnStream
 DOMAIN-SUFFIX,bahamut.com.tw,FgnStream
 DOMAIN-SUFFIX,gamer.com.tw,FgnStream
 DOMAIN,gamer-cds.cdn.hinet.net,FgnStream
 DOMAIN,gamer2-cds.cdn.hinet.net,FgnStream
 
-# > BBC iPlayer
+# > VIDEO - BBC iPlayer
 USER-AGENT,BBCiPlayer*,FgnStream
 DOMAIN-SUFFIX,bbc.co.uk,FgnStream
 DOMAIN-SUFFIX,bbci.co.uk,FgnStream
 DOMAIN-KEYWORD,bbcfmt,FgnStream
 DOMAIN-KEYWORD,uk-live,FgnStream
 
-# > DAZN
+# > VIDEO - DAZN
 USER-AGENT,DAZN*,FgnStream
 DOMAIN-SUFFIX,dazn.com,FgnStream
 
-# > encoreTVB
+# > VIDEO - encoreTVB
 USER-AGENT,encoreTVB*,FgnStream
 DOMAIN-SUFFIX,encoretvb.com,FgnStream
 DOMAIN,edge.api.brightcove.com,FgnStream
 DOMAIN,bcbolt446c5271-a.akamaihd.net,FgnStream
 
-# > Fox+ & Fox Now
+# > VIDEO - Fox+ & Fox Now
 USER-AGENT,FOX%20NOW*,FgnStream
 USER-AGENT,FOXPlus*,FgnStream
 DOMAIN-SUFFIX,dashasiafox.akamaized.net,FgnStream
@@ -92,7 +88,7 @@ DOMAIN-SUFFIX,staticasiafox.akamaized.net,FgnStream
 DOMAIN-SUFFIX,theplatform.com,FgnStream
 DOMAIN-SUFFIX,uplynk.com,FgnStream
 
-# > HBO Now & HBO GO
+# > VIDEO - HBO Now & HBO GO
 USER-AGENT,HBO%20NOW*,FgnStream
 USER-AGENT,HBO%20GO*,FgnStream
 USER-AGENT,HBOAsia*,FgnStream
@@ -107,49 +103,49 @@ DOMAIN,cf-images.ap-southeast-1.prod.boltdns.net,FgnStream
 DOMAIN,manifest.prod.boltdns.net,FgnStream
 DOMAIN,s3-ap-southeast-1.amazonaws.com,FgnStream
 
-# > Hulu
+# > VIDEO - Hulu
 DOMAIN-SUFFIX,hulu.com,FgnStream
 DOMAIN-SUFFIX,huluim.com,FgnStream
 DOMAIN-SUFFIX,huluFgnStream.com,FgnStream
 
-# > ITV
+# > VIDEO - ITV
 USER-AGENT,ITV_Player*,FgnStream
 DOMAIN-SUFFIX,itv.com,FgnStream
 DOMAIN-SUFFIX,itvstatic.com,FgnStream
 DOMAIN,itvpnpmobile-a.akamaihd.net,FgnStream
 
-# > KKTV
+# > VIDEO - KKTV
 USER-AGENT,KKTV*,FgnStream
 USER-AGENT,com.kktv.ios.kktv*,FgnStream
 DOMAIN-SUFFIX,kktv.com.tw,FgnStream
 DOMAIN-SUFFIX,kktv.me,FgnStream
 DOMAIN,kktv-theater.kk.FgnStream,FgnStream
 
-# > Line TV
+# > VIDEO - Line TV
 USER-AGENT,LINE%20TV*,FgnStream
 DOMAIN-SUFFIX,linetv.tw,FgnStream
 DOMAIN,d3c7rimkq79yfu.cloudfront.net,FgnStream
 
-# > Hulu(フールー)
+# > VIDEO - Hulu(フールー)
 DOMAIN-SUFFIX,happyon.jp,FgnStream
 DOMAIN-SUFFIX,hulu.jp,FgnStream
 
-# > LiTV
+# > VIDEO - LiTV
 DOMAIN-SUFFIX,litv.tv,FgnStream
 DOMAIN,litvfreemobile-hichannel.cdn.hinet.net,FgnStream
 
-# > My5
+# > VIDEO - My5
 USER-AGENT,My5*,FgnStream
 DOMAIN-SUFFIX,channel5.com,FgnStream
 DOMAIN-SUFFIX,my5.tv,FgnStream
 DOMAIN,d349g9zuie06uo.cloudfront.net,FgnStream
 
-# > myTV_SUPER
+# > VIDEO - myTV_SUPER
 USER-AGENT,mytv*,FgnStream
 DOMAIN-SUFFIX,mytvsuper.com,FgnStream
 DOMAIN-SUFFIX,tvb.com,FgnStream
 
-# > Netflix
+# > VIDEO - Netflix
 USER-AGENT,Argo*,FgnStream
 DOMAIN-SUFFIX,netflix.com,FgnStream
 DOMAIN-SUFFIX,netflix.net,FgnStream
@@ -168,21 +164,21 @@ IP-CIDR,192.173.64.0/18,FgnStream
 IP-CIDR,198.38.96.0/19,FgnStream
 IP-CIDR,198.45.48.0/20,FgnStream
 
-# > PBS
+# > VIDEO - PBS
 USER-AGENT,PBS*,FgnStream
 DOMAIN-SUFFIX,pbs.org,FgnStream
 
-# > Pornhub
+# > VIDEO - Pornhub
 DOMAIN-SUFFIX,phncdn.com,FgnStream
 DOMAIN-SUFFIX,pornhub.com,FgnStream
 DOMAIN-SUFFIX,pornhubpremium.com,FgnStream
 
-# > Twitch
+# > VIDEO - Twitch
 DOMAIN-SUFFIX,twitch.tv,FgnStream
 DOMAIN-SUFFIX,twitchcdn.net,FgnStream
 DOMAIN-SUFFIX,ttvnw.net,FgnStream
 
-# > ViuTV
+# > VIDEO - ViuTV
 USER-AGENT,Viu*,FgnStream
 USER-AGENT,ViuTV*,FgnStream
 DOMAIN-SUFFIX,viu.com,FgnStream
@@ -192,7 +188,7 @@ DOMAIN,d1k2us671qcoau.cloudfront.net,FgnStream
 DOMAIN,d2anahhhmp1ffz.cloudfront.net,FgnStream
 DOMAIN,dfp6rglgjqszk.cloudfront.net,FgnStream
 
-# > Youtube
+# > VIDEO - Youtube
 USER-AGENT,com.google.ios.youtube*,FgnStream
 USER-AGENT,YouTube*,FgnStream
 DOMAIN-SUFFIX,googlevideo.com,FgnStream
