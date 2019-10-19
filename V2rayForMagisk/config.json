@@ -1,0 +1,111 @@
+{
+	"log": {
+		"error": "/data/v2ray/run/error.log",
+		"loglevel": "warning"
+	},
+	"inbounds": [{
+		"port": 65534,
+		"tag": "dns-in",
+		"protocol": "dokodemo-door",
+		"settings": {
+			"port": 53,
+			"address": "dns.google",
+			"network": "tcp,udp,tls"
+		}
+	}, {
+		"port": 65535,
+		"listen": "0.0.0.0",
+		"tag": "proxy-inbound",
+		"protocol": "dokodemo-door",
+		"settings": {
+			"network": "tcp,udp",
+			"followRedirect": true
+		},
+		"sniffing": {
+			"enabled": true,
+			"destOverride": ["http", "tls"]
+		}
+	}],
+	"outbounds": [{
+		"protocol": "shadowsocks",
+		"settings": {
+			"servers": [{
+				"address": "xxxxxxxxx",
+				"method": "aes-256-gcm",
+				"password": "xxxxxxxx",
+				"port": 80
+			}]
+		},
+		"tag": "ss"
+	}, {
+		"mux": {
+			"enabled": false
+		},
+		"protocol": "vmess",
+		"settings": {
+			"vnext": [{
+				"address": "xxxxxxxx",
+				"port": 80,
+				"users": [{
+					"id": "xxxxxxxx",
+					"alterId": 16,
+					"security": "auto",
+					"level": 0
+				}]
+			}]
+		},
+		"streamSettings": {
+			"network": "tcp",
+			"security": ""
+		},
+		"tag": "v2"
+	}, {
+		"protocol": "freedom",
+		"settings": {},
+		"tag": "cn"
+	}, {
+		"protocol": "dns",
+		"tag": "dns-out"
+	}],
+	"policy": {
+		"levels": {
+			"0": {
+				"bufferSize": 4,
+				"connIdle": 600,
+				"uplinkOnly": 0,
+				"downlinkOnly": 0
+			}
+		}
+	},
+	"routing": {
+		"domainStrategy": "IPIfNonMatch",
+		"rules": [{
+			"type": "field",
+			"outboundTag": "dns-out",
+			"inboundTag": ["dns-in"]
+		}, {
+			"type": "field",
+			"outboundTag": "v2",
+			"domain": ["google", "geosite:fb"]
+		}, {
+			"type": "field",
+			"outboundTag": "cn",
+			"ip": ["geoip:cn", "geoip:pr"]
+		}, {
+			"type": "field",
+			"outboundTag": "cn",
+			"domain": ["geosite:cn"]
+		}]
+	},
+	"dns": {
+		"hosts": {
+			"domain:pica-juicy.picacomic.com": "127.0.0.1",
+			"geosite:ad": "127.0.0.1"
+		},
+		"servers": ["dns.google", {
+			"address": "223.5.5.5",
+			"port": 53,
+			"domains": ["geosite:cn"]
+		}]
+	}
+}

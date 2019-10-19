@@ -1,0 +1,155 @@
+{
+	"+With": {
+		"color": "#fa8",
+		"defaultProfileName": "🧡 SS",
+		"name": "With",
+		"profileType": "VirtualProfile",
+		"revision": "16db38032b7",
+		"rules": []
+	},
+	"+💙 V2": {
+		"bypassList": [
+			{
+				"conditionType": "BypassCondition",
+				"pattern": "127.0.0.1"
+			},
+			{
+				"conditionType": "BypassCondition",
+				"pattern": "192.168.0.0/16"
+			},
+			{
+				"conditionType": "BypassCondition",
+				"pattern": "[::1]"
+			},
+			{
+				"conditionType": "BypassCondition",
+				"pattern": "localhost"
+			}
+		],
+		"color": "#0078d7",
+		"fallbackProxy": {
+			"host": "127.0.0.1",
+			"port": 1081,
+			"scheme": "socks5"
+		},
+		"name": "💙 V2",
+		"profileType": "FixedProfile",
+		"revision": "16db37b5116"
+	},
+	"+🧡 SS": {
+		"bypassList": [
+			{
+				"conditionType": "BypassCondition",
+				"pattern": "127.0.0.1"
+			},
+			{
+				"conditionType": "BypassCondition",
+				"pattern": "192.168.0.0/16"
+			},
+			{
+				"conditionType": "BypassCondition",
+				"pattern": "[::1]"
+			},
+			{
+				"conditionType": "BypassCondition",
+				"pattern": "localhost"
+			}
+		],
+		"color": "#f7630c",
+		"fallbackProxy": {
+			"host": "127.0.0.1",
+			"port": 1080,
+			"scheme": "socks5"
+		},
+		"name": "🧡 SS",
+		"profileType": "FixedProfile",
+		"revision": "16db38055b8"
+	},
+	"-addConditionsToBottom": false,
+	"-confirmDeletion": false,
+	"-downloadInterval": 1440,
+	"-enableQuickSwitch": false,
+	"-monitorWebRequests": false,
+	"-quickSwitchProfiles": [
+		"direct",
+		"💜 AT WL",
+		"With"
+	],
+	"-refreshOnProfileChange": true,
+	"-revertProxyChanges": true,
+	"-showConditionTypes": 1,
+	"-showExternalProfile": false,
+	"-showInspectMenu": true,
+	"-startupProfileName": "💗 CNIPSite",
+	"schemaVersion": 2,
+	"+💜 AT BL": {
+		"profileType": "SwitchProfile",
+		"name": "💜 AT BL",
+		"defaultProfileName": "__ruleListOf_💜 AT BL",
+		"rules": [
+			{
+				"condition": {
+					"conditionType": "HostWildcardCondition",
+					"pattern": "*google*"
+				},
+				"profileName": "With"
+			}
+		],
+		"color": "#886ce4",
+		"revision": "16dbee635de"
+	},
+	"+💜 AT WL": {
+		"color": "#886ce4",
+		"defaultProfileName": "__ruleListOf_💜 AT WL",
+		"name": "💜 AT WL",
+		"profileType": "SwitchProfile",
+		"revision": "16dbee58eeb",
+		"rules": [
+			{
+				"condition": {
+					"conditionType": "HostWildcardCondition",
+					"pattern": "*google*"
+				},
+				"profileName": "With"
+			}
+		]
+	},
+	"+__ruleListOf_💜 AT WL": {
+		"color": "#886ce4",
+		"defaultProfileName": "With",
+		"format": "Switchy",
+		"lastUpdate": "2019-10-12T01:29:15.730Z",
+		"matchProfileName": "direct",
+		"name": "__ruleListOf_💜 AT WL",
+		"profileType": "RuleListProfile",
+		"revision": "16dbd955139",
+		"sourceUrl": "https://git.io/meloswl"
+	},
+	"+__ruleListOf_💜 AT BL": {
+		"name": "__ruleListOf_💜 AT BL",
+		"defaultProfileName": "direct",
+		"profileType": "RuleListProfile",
+		"color": "#886ce4",
+		"format": "Switchy",
+		"matchProfileName": "With",
+		"revision": "16dbee619f9",
+		"sourceUrl": "https://git.io/melosbl",
+		"lastUpdate": "2019-10-12T07:37:07.557Z"
+	},
+	"+💗 CNIPSite": {
+		"color": "#e81224",
+		"lastUpdate": "2019-10-12T07:40:16.714Z",
+		"name": "💗 CNIPSite",
+		"pacUrl": "https://git.io/melossp",
+		"profileType": "PacProfile",
+		"revision": "16dbee93437"
+	},
+	"+💗 CNIPList": {
+		"profileType": "PacProfile",
+		"name": "💗 CNIPList",
+		"color": "#e81224",
+		"revision": "16dbee90b73",
+		"pacUrl": "https://git.io/melosip",
+		"lastUpdate": "2019-10-12T07:40:06.752Z"
+	}
+}
