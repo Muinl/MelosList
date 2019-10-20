@@ -7,7 +7,7 @@ DOMAIN,gmail-imap.l.google.com,Mail
 DOMAIN,gmail-smtp-in.l.google.com,Mail
 DOMAIN,gmail-smtp-msa.l.google.com,Mail
 DOMAIN,gmail-smtp.l.google.com,Mail
-DOMAIN,gmr-smtp-in.l.google.com
+DOMAIN,gmr-smtp-in.l.google.com,Mail
 DOMAIN,googlemail-imap.l.google.com,Mail
 DOMAIN,googlemail-pop.l.google.com,Mail
 DOMAIN,googlemail-smtp.l.google.com,Mail
