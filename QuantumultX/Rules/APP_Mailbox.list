@@ -4,7 +4,7 @@ DOMAIN,alt2.gmail-smtp-in.l.google.com,Mail
 DOMAIN,alt3.gmail-smtp-in.l.google.com,Mail
 DOMAIN,alt4.gmail-smtp-in.l.google.com,Mail
 DOMAIN,gmail-imap.l.google.com,Mail
-DOMAIN,gmail-smtp-in.l.google.com
+DOMAIN,gmail-smtp-in.l.google.com,Mail
 DOMAIN,gmail-smtp-msa.l.google.com,Mail
 DOMAIN,gmail-smtp.l.google.com,Mail
 DOMAIN,gmr-smtp-in.l.google.com
