@@ -1,7 +1,23 @@
 # > Gmail
-DOMAIN,pop.gmail.com,Mail
+DOMAIN,alt1.gmail-smtp-in.l.google.com,Mail
+DOMAIN,alt2.gmail-smtp-in.l.google.com,Mail
+DOMAIN,alt3.gmail-smtp-in.l.google.com,Mail
+DOMAIN,alt4.gmail-smtp-in.l.google.com,Mail
+DOMAIN,gmail-imap.l.google.com,Mail
+DOMAIN,gmail-smtp-in.l.google.com
+DOMAIN,gmail-smtp-msa.l.google.com,Mail
+DOMAIN,gmail-smtp.l.google.com,Mail
+DOMAIN,gmr-smtp-in.l.google.com
+DOMAIN,googlemail-imap.l.google.com,Mail
+DOMAIN,googlemail-pop.l.google.com,Mail
+DOMAIN,googlemail-smtp.l.google.com,Mail
 DOMAIN,imap.gmail.com,Mail
+DOMAIN,imap.googlemail.com,Mail
+DOMAIN,pop.gmail.com,Mail
+DOMAIN,pop.googlemail.com,Mail
 DOMAIN,smtp.gmail.com,Mail
+DOMAIN,smtp.googlemail.com,Mail
+
 # > Outlook
 DOMAIN,outlook.office365.com,Mail
 DOMAIN,smtp.office365.com,Mail
