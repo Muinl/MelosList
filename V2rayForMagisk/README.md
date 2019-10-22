@@ -12,10 +12,11 @@ It isn't guaranteed to be updated in a timely manner, so please follow the origi
 - **geoip.dat** : 
   - `cn`  China CIDR 
   - `pr`  Private address ( eg:192.168.\*.\* )
+  - `gc`  GCM/FCM IP
 - **geosite.dat** : 
   - `ad`  Common advertising domain name
   - `cn`  China domain name
-  - `fb`  Facebook ( Including Instagram )
+  - `gc`  GCM/FCM domain name
 
 ## Thanks
 

@@ -9,7 +9,7 @@
 		"protocol": "dokodemo-door",
 		"settings": {
 			"port": 53,
-			"address": "8.8.8.8",
+			"address": "223.5.5.5",
 			"network": "tcp,udp,tls"
 		}
 	}, {
@@ -30,35 +30,13 @@
 		"protocol": "shadowsocks",
 		"settings": {
 			"servers": [{
-				"address": "xxxxxxxx",
+				"address": "xxxxxxxx",  // Your shadowsocks address
 				"method": "aes-256-gcm",
-				"password": "xxxxxxxx",
-				"port": 80
+				"password": "xxxxxxxx",  // Your shadowsocks password
+				"port": 80,  // Your shadowsocks port
 			}]
 		},
 		"tag": "ss"
-	}, {
-		"mux": {
-			"enabled": false
-		},
-		"protocol": "vmess",
-		"settings": {
-			"vnext": [{
-				"address": "xxxxxxxx",
-				"port": 80,
-				"users": [{
-					"id": "xxxxxxxx",
-					"alterId": 16,
-					"security": "auto",
-					"level": 0
-				}]
-			}]
-		},
-		"streamSettings": {
-			"network": "tcp",
-			"security": ""
-		},
-		"tag": "v2"
 	}, {
 		"protocol": "freedom",
 		"settings": {},
@@ -85,30 +63,18 @@
 			"inboundTag": ["dns-in"]
 		}, {
 			"type": "field",
-			"outboundTag": "v2",
-			"ip": ["8.8.8.8"]
-		}, {
-			"type": "field",
-			"outboundTag": "v2",
-			"domain": ["google", "geosite:fb"]
+			"outboundTag": "cn",
+			"ip": ["geoip:cn", "geoip:gc"]
 		}, {
 			"type": "field",
 			"outboundTag": "cn",
-			"ip": ["geoip:cn", "geoip:pr"]
-		}, {
-			"type": "field",
-			"outboundTag": "cn",
-			"domain": ["geosite:cn"]
+			"domain": ["geosite:cn", "geosite:gc"]
 		}]
 	},
 	"dns": {
 		"hosts": {
 			"geosite:ad": "0.0.0.0"
 		},
-		"servers": ["8.8.8.8", {
-			"address": "223.5.5.5",
-			"port": 53,
-			"domains": ["geosite:cn"]
-		}]
+		"servers": ["223.5.5.5", "223.6.6.6"]
 	}
 }
