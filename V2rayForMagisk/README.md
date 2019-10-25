@@ -13,10 +13,12 @@ It isn't guaranteed to be updated in a timely manner, so please follow the origi
   - `cn`  China CIDR 
   - `pr`  Private address ( eg:192.168.\*.\* )
   - `gc`  GCM/FCM IP
+  - `sp`  Spotify IP
 - **geosite.dat** : 
   - `ad`  Common advertising domain name
   - `cn`  China domain name
   - `gc`  GCM/FCM domain name
+  - `sp`  Spotify domain name
 
 ## Thanks
 

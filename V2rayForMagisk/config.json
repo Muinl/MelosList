@@ -30,10 +30,10 @@
 		"protocol": "shadowsocks",
 		"settings": {
 			"servers": [{
-				"address": "xxxxxxxx",  // Your shadowsocks address
+				"address": "xxxxxxxx", // Your shadowsocks address
 				"method": "aes-256-gcm",
-				"password": "xxxxxxxx",  // Your shadowsocks password
-				"port": 80,  // Your shadowsocks port
+				"password": "xxxxxxxx", // Your shadowsocks password
+				"port": 80, // Your shadowsocks port
 			}]
 		},
 		"tag": "ss"
@@ -46,13 +46,11 @@
 		"tag": "dns-out"
 	}],
 	"policy": {
-		"levels": {
-			"0": {
-				"bufferSize": 4,
-				"connIdle": 600,
-				"uplinkOnly": 0,
-				"downlinkOnly": 0
-			}
+		"system": {
+			"bufferSize": 4,
+			"connIdle": 600,
+			"uplinkOnly": 0,
+			"downlinkOnly": 0
 		}
 	},
 	"routing": {
@@ -64,17 +62,17 @@
 		}, {
 			"type": "field",
 			"outboundTag": "cn",
-			"ip": ["geoip:cn", "geoip:gc"]
+			"ip": ["geoip:cn", "geoip:gc", "geoip:sp"]
 		}, {
 			"type": "field",
 			"outboundTag": "cn",
-			"domain": ["geosite:cn", "geosite:gc"]
+			"domain": ["geosite:cn", "geosite:gc", "geosite:sp"]
 		}]
 	},
 	"dns": {
 		"hosts": {
 			"geosite:ad": "0.0.0.0"
 		},
-		"servers": ["223.5.5.5", "223.6.6.6"]
+		"servers": ["223.5.5.5"]
 	}
 }
