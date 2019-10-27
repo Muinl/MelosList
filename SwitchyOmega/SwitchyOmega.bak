@@ -8,24 +8,19 @@
 		"rules": []
 	},
 	"+💙 V2": {
-		"bypassList": [
-			{
-				"conditionType": "BypassCondition",
-				"pattern": "127.0.0.1"
-			},
-			{
-				"conditionType": "BypassCondition",
-				"pattern": "192.168.0.0/16"
-			},
-			{
-				"conditionType": "BypassCondition",
-				"pattern": "[::1]"
-			},
-			{
-				"conditionType": "BypassCondition",
-				"pattern": "localhost"
-			}
-		],
+		"bypassList": [{
+			"conditionType": "BypassCondition",
+			"pattern": "127.0.0.1"
+		}, {
+			"conditionType": "BypassCondition",
+			"pattern": "192.168.0.0/16"
+		}, {
+			"conditionType": "BypassCondition",
+			"pattern": "[::1]"
+		}, {
+			"conditionType": "BypassCondition",
+			"pattern": "localhost"
+		}],
 		"color": "#0078d7",
 		"fallbackProxy": {
 			"host": "127.0.0.1",
@@ -37,24 +32,19 @@
 		"revision": "16db37b5116"
 	},
 	"+🧡 SS": {
-		"bypassList": [
-			{
-				"conditionType": "BypassCondition",
-				"pattern": "127.0.0.1"
-			},
-			{
-				"conditionType": "BypassCondition",
-				"pattern": "192.168.0.0/16"
-			},
-			{
-				"conditionType": "BypassCondition",
-				"pattern": "[::1]"
-			},
-			{
-				"conditionType": "BypassCondition",
-				"pattern": "localhost"
-			}
-		],
+		"bypassList": [{
+			"conditionType": "BypassCondition",
+			"pattern": "127.0.0.1"
+		}, {
+			"conditionType": "BypassCondition",
+			"pattern": "192.168.0.0/16"
+		}, {
+			"conditionType": "BypassCondition",
+			"pattern": "[::1]"
+		}, {
+			"conditionType": "BypassCondition",
+			"pattern": "localhost"
+		}],
 		"color": "#f7630c",
 		"fallbackProxy": {
 			"host": "127.0.0.1",
@@ -70,11 +60,7 @@
 	"-downloadInterval": 1440,
 	"-enableQuickSwitch": false,
 	"-monitorWebRequests": false,
-	"-quickSwitchProfiles": [
-		"direct",
-		"💜 AT WL",
-		"With"
-	],
+	"-quickSwitchProfiles": ["direct", "💜 AT WL", "With"],
 	"-refreshOnProfileChange": true,
 	"-revertProxyChanges": true,
 	"-showConditionTypes": 1,
@@ -86,15 +72,13 @@
 		"profileType": "SwitchProfile",
 		"name": "💜 AT BL",
 		"defaultProfileName": "__ruleListOf_💜 AT BL",
-		"rules": [
-			{
-				"condition": {
-					"conditionType": "HostWildcardCondition",
-					"pattern": "*google*"
-				},
-				"profileName": "With"
-			}
-		],
+		"rules": [{
+			"condition": {
+				"conditionType": "HostWildcardCondition",
+				"pattern": "*google*"
+			},
+			"profileName": "With"
+		}],
 		"color": "#886ce4",
 		"revision": "16dbee635de"
 	},
@@ -104,15 +88,13 @@
 		"name": "💜 AT WL",
 		"profileType": "SwitchProfile",
 		"revision": "16dbee58eeb",
-		"rules": [
-			{
-				"condition": {
-					"conditionType": "HostWildcardCondition",
-					"pattern": "*google*"
-				},
-				"profileName": "With"
-			}
-		]
+		"rules": [{
+			"condition": {
+				"conditionType": "HostWildcardCondition",
+				"pattern": "*google*"
+			},
+			"profileName": "With"
+		}]
 	},
 	"+__ruleListOf_💜 AT WL": {
 		"color": "#886ce4",
