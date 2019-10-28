@@ -16,8 +16,8 @@ It isn't guaranteed to be updated in a timely manner, so please follow the origi
 | SwitchyOmega.bak | SwitchyOmega Backup File | https://git.io/melosso | [@RunningMelos](https://github.com/RunningMelos/MelosList)   |
 | WhiteList.sorl   | only `CNSite`       | https://git.io/meloswl | [@felixonmars](https://github.com/felixonmars/dnsmasq-china-list) |
 | BlackList.sorl   | only `GFWList`           | https://git.io/melosbl | [@gfwlist](https://github.com/gfwlist/gfwlist)               |
-| CNIPSite.pac     | `CNIP` + `CNSite`        | https://git.io/meloscs | [@yukixz](https://github.com/yukixz/whitepac)                |
-| CNIPList.pac     | `CNIP` + `GFWList`       | https://git.io/meloscl | [@zhiyi7](https://github.com/zhiyi7/gfw-pac)                 |
+| CNIPSite.pac     | `CNIP` + `CNSite`        | https://git.io/melossp | [@yukixz](https://github.com/yukixz/whitepac)                |
+| CNIPList.pac     | `CNIP` + `GFWList`       | https://git.io/melosip | [@zhiyi7](https://github.com/zhiyi7/gfw-pac)                 |
 
 Just fill in the link to the correct location in SwithyOmega and enjoy the Internet. &nbsp; :)
 
